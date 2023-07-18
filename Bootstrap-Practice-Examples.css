@@ -1,0 +1,15 @@
+.box1 {
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    margin: 6px;
+    background-color: #f9f9f9;
+}
+
+.box2 {
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    margin: 6px;
+    background-color: #555;
+}

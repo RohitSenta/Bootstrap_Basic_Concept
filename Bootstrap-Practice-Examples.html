@@ -1,0 +1,2407 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Practive</title>
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+</head>
+
+<body>
+    <hr><hr>
+    <header>
+        <h1>Bootstrap Practice</h1>
+    </header>
+    <hr>
+    <hr><br>
+
+    <section>
+        <div class="container">
+            <h1>Hello World!!</h1>
+
+            <div class="mt-4 p-5 bg-primary text-white rounded">
+                <h1>Jumbotron Example</h1>
+                <p>Hello World!!</p>
+            </div>
+            <br><hr><br>
+
+            <div>
+                <div>
+                    <h3>Alerts</h3>
+                    <div class="alert alert-success ">
+                        <b>Congratulations!!!</b> You have cleared this exam !!!
+                    </div>
+                </div>
+                <div class="alert alert-danger alert-dismissible">
+                    <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+                    <b>Sorry!!</b> Your Download is failed!!! Please try again...
+                </div>
+            </div>
+            <br><hr><br>
+
+            <div>
+                <h3>Buttons</h3>
+                <button class="btn btn-primary">Primary</button>
+                <button class="btn btn-outline-secondary">Secondary</button>
+                <button class="btn btn-danger">Danger</button>
+                <button class="btn btn-success">Success</button>
+                <button class="btn btn-outline-warning">Warning</button>
+                <button class="btn btn-outline-info">Info</button>
+                <button class="btn btn-dark text-light">dark</button>
+                <button class="btn btn-outline-light text-dark border">light</button>
+                <br><br>
+
+                <h3>Group Buttons</h3>
+                <div class="btn-group">
+                    <button class="btn btn-primary">Sony</button>
+                    <button class="btn btn-primary">Samsumg</button>
+                    <div class="btn-group">
+                        <button class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">Apple</button>
+                        <div class="dropdown-menu">
+                            <a href="#" class="dropdown-item">I Phone</a>
+                            <a href="#" class="dropdown-item">I Pad</a>
+                            <a href="#" class="dropdown-item">I Mac</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br><hr><br>
+
+            <div>
+                <h3>Table</h3>
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Surname</th>
+                            <th>City</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Rohit</td>
+                            <td>Senta</td>
+                            <td>Bhavnagar</td>
+                        </tr>
+                        <tr>
+                            <td>Yash</td>
+                            <td>Lukhi</td>
+                            <td>Surat</td>
+                        </tr>
+                        <tr>
+                            <td>Hardik</td>
+                            <td>Sangani</td>
+                            <td>Surat</td>
+                        </tr>
+                        <tr>
+                            <td>Himanshu</td>
+                            <td>Vaghasiya</td>
+                            <td>Rajkot</td>
+                        </tr>
+                    </tbody>
+                </table>           
+            </div>
+            <br><hr><br>
+
+            <div>
+                <h3>Images</h3>
+                <div class="images text-center">
+                    <img src="nature_tree.jpg" class="rounded" width="200">
+                    <img src="nature_tree.jpg" class="rounded-4" width="200">
+                    <img src="nature_tree.jpg" class="rounded-5" width="200">
+                    <img src="nature_tree.jpg" class="rounded-circle" width="200">
+                    <img src="nature_tree.jpg" class="img-thumbnail" width="200">
+                    <br>
+                    <img src="nature_tree.jpg" class="rounded-4 img-fluid mx-auto d-block m-5">
+                </div>
+            </div>
+            <br><hr><br>
+
+            <div class="badges">
+                <h3>Badges</h3>
+                <div>Hello World!!! <span class="badge bg-primary">New</span></div>
+                <button class="btn btn-primary mt-3">
+                    Massages <span class="badge bg-danger">4 New</span>
+                </button>
+                <button class="btn btn-warning mt-3">
+                    Emails <span class="badge bg-success rounded-pill">New</span>
+                </button>
+            </div>
+            <br><hr><br>
+
+            <div class="progressbar">
+                <h3>Progress-Bars</h3>
+
+                <div class="progress">
+                    <div class="progress-bar" style="width: 30%;">30%</div>
+                </div>
+                <br>
+
+                <div class="progress">
+                    <div class="progress-bar bg-secondary" style="width: 40%;">40%</div>
+                </div>
+                <br>
+
+                <div class="progress" style="height: 30px;">
+                    <div class="progress-bar bg-warning" style="width: 50%;">Height-30px - 50%</div>
+                </div>
+                <br>
+
+                <div class="progress" style="height: 40px;">
+                    <div class="progress-bar progress-bar-striped bg-danger" style="width: 60%;">Progress-Bar-Stripped -
+                        60%</div>
+                </div>
+                <br>
+
+                <div class="progress" style="height: 40px;">
+                    <div class="progress-bar progress-bar-striped bg-success" style="width: 70%;">Progress-Bar-Stripped
+                        - 70%</div>
+                </div>
+                <br>
+
+                <div class="progress" style="height: 40px;">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-dark" style="width: 80%;">
+                        Progress-Bar-Aninated - 80%</div>
+                </div>
+                <br>
+
+                <div class="progress" style="height: 40px;">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-primary" style="width: 90%;">
+                        Progress-Bar-Aninated - 90%</div>
+                </div>
+                <br>
+
+                <div class="progress" style="height: 50px;">
+                    <div class="progress-bar bg-danger" style="width: 20%;">50%</div>
+                    <div class="progress-bar progress-bar-striped bg-warning" style="width: 30%;">60%</div>
+                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" style="width: 50%;">
+                        Multiple-Progeress-Bar - 90%</div>
+                </div>
+            </div>
+            <br><hr><br>
+
+            <div class="spinners">
+                <h3>Spinners</h3>
+
+                <div class="spinner-border"></div>
+                <br>
+                <div class="spinner-border text-muted"></div>
+                <div class="spinner-border text-primary"></div>
+                <div class="spinner-border text-secondary"></div>
+                <div class="spinner-border text-danger"></div>
+                <div class="spinner-border text-success"></div>
+                <div class="spinner-border text-warning"></div>
+                <div class="spinner-border text-info"></div>
+                <div class="spinner-border text-dark"></div>
+                <div class="spinner-border text-light"></div>
+                <br>
+
+                <div class="spinner-grow text-muted"></div>
+                <div class="spinner-grow text-primary"></div>
+                <div class="spinner-grow text-secondary"></div>
+                <div class="spinner-grow text-danger"></div>
+                <div class="spinner-grow text-success"></div>
+                <div class="spinner-grow text-warning"></div>
+                <div class="spinner-grow text-info"></div>
+                <div class="spinner-grow text-dark"></div>
+                <div class="spinner-grow text-light"></div>
+                <br>
+
+                <div class="spinner-border spinner-border-sm text-primary"></div>
+                <div class="spinner-grow spinner-grow-sm text-danger"></div>
+
+                <button class="btn btn-warning">
+                    <span class="spinner-border spinner-border-sm"></span>
+                    Loading...
+                </button>
+                <button class="btn btn-success">
+                    <span class="spinner-grow spinner-grow-sm"></span>
+                    Loading...
+                </button>
+                <br><br>
+
+            </div>
+            <br><hr><br>
+
+            <div class="paginations">
+                <h3>Paginations</h3>
+
+                <ul class="pagination">
+                    <li class="page-item"><a href="#" class="page-link">Previours</a></li>
+                    <li class="page-item"><a href="#" class="page-link">1</a></li>
+                    <li class="page-item"><a href="#" class="page-link">2</a></li>
+                    <li class="page-item"><a href="#" class="page-link">3</a></li>
+                    <li class="page-item"><a href="#" class="page-link">Next</a></li>
+                </ul>
+                <br>
+
+                <ul class="pagination">
+                    <li class="page-item"><a href="#" class="page-link">Previours</a></li>
+                    <li class="page-item"><a href="#" class="page-link">1</a></li>
+                    <li class="page-item active"><a href="#" class="page-link">2</a></li>
+                    <li class="page-item"><a href="#" class="page-link">3</a></li>
+                    <li class="page-item"><a href="#" class="page-link">Next</a></li>
+                </ul>
+                <br>
+
+                <ul class="pagination pagination-sm">
+                    <li class="page-item"><a href="#" class="page-link">Previours</a></li>
+                    <li class="page-item"><a href="#" class="page-link">1</a></li>
+                    <li class="page-item active"><a href="#" class="page-link">2</a></li>
+                    <li class="page-item"><a href="#" class="page-link">3</a></li>
+                    <li class="page-item"><a href="#" class="page-link">Next</a></li>
+                </ul>
+                <br>
+
+                <ul class="pagination pagination-lg">
+                    <li class="page-item"><a href="#" class="page-link">Previours</a></li>
+                    <li class="page-item"><a href="#" class="page-link">1</a></li>
+                    <li class="page-item active"><a href="#" class="page-link">2</a></li>
+                    <li class="page-item"><a href="#" class="page-link">3</a></li>
+                    <li class="page-item"><a href="#" class="page-link">Next</a></li>
+                </ul>
+                <br>
+
+                <ul class="pagination">
+                    <li class="page-item disabled"><a href="#" class="page-link">Previours</a></li>
+                    <li class="page-item"><a href="#" class="page-link">1</a></li>
+                    <li class="page-item"><a href="#" class="page-link">2</a></li>
+                    <li class="page-item"><a href="#" class="page-link">3</a></li>
+                    <li class="page-item active"><a href="#" class="page-link">Next</a></li>
+                </ul>
+                <br>
+
+                <ul class="pagination justify-content-center">
+                    <li class="page-item disabled"><a href="#" class="page-link">Previours</a></li>
+                    <li class="page-item"><a href="#" class="page-link">1</a></li>
+                    <li class="page-item"><a href="#" class="page-link">2</a></li>
+                    <li class="page-item"><a href="#" class="page-link">3</a></li>
+                    <li class="page-item active"><a href="#" class="page-link bg-success">Next</a></li>
+                </ul>
+                <br>
+
+                <ul class="pagination justify-content-end">
+                    <li class="page-item disabled"><a href="#" class="page-link">Previours</a></li>
+                    <li class="page-item"><a href="#" class="page-link">1</a></li>
+                    <li class="page-item"><a href="#" class="page-link">2</a></li>
+                    <li class="page-item"><a href="#" class="page-link">3</a></li>
+                    <li class="page-item active"><a href="#" class="page-link bg-dark">Next</a></li>
+                </ul>
+            </div>
+            <br><hr><br>
+
+            <div>
+                <h3>List Groups</h3>
+
+                <ul class="list-group">
+                    <li class="list-group-item">First Item</li>
+                    <li class="list-group-item">Second Item</li>
+                    <li class="list-group-item">Third Item</li>
+                    <li class="list-group-item">Fourth Item</li>
+                </ul>
+                <br>
+
+                <ul class="list-group">
+                    <a class="list-group-item">First Link</a>
+                    <a class="list-group-item active">Second Link</a>
+                    <a class="list-group-item">Third Link</a>
+                    <a class="list-group-item disabled">Fourth Link</a>
+                </ul>
+                <br>
+
+                <ul class="list-group list-group-flush list-group-numbered">
+                    <a class="list-group-item">First Link</a>
+                    <a class="list-group-item active">Second Link</a>
+                    <a class="list-group-item">Third Link</a>
+                    <a class="list-group-item">Fourth Link</a>
+                </ul>
+                <br>
+
+                <ul class="list-group list-group-horizontal">
+                    <a class="list-group-item list-group-item-success">First Link</a>
+                    <a class="list-group-item active">Second Link</a>
+                    <a class="list-group-item list-group-item-danger">Third Link</a>
+                    <a class="list-group-item list-group-item-warning">Fourth Link</a>
+                </ul>
+                <br>
+
+                <ul class="list-group">
+                    <a
+                        class="list-group-item list-group-item-action list-group-item-danger d-flex justify-content-between align-items-center">Success
+                        <span class="badge bg-primary rounded-pill">New</span>
+                    </a>
+                    <a
+                        class="list-group-item list-group-item-action list-group-item-secondary d-flex justify-content-between align-items-center">Secondary
+                        <span class="badge bg-primary rounded-pill">New</span>
+                    </a>
+                    <a class="list-group-item list-group-item-action list-group-item-info">Info</a>
+                    <a
+                        class="list-group-item list-group-item-action list-group-item-warning d-flex justify-content-between align-items-center">Warning
+                        <span class="badge bg-primary rounded-pill">New</span>
+                    </a>
+                    <a class="list-group-item list-group-item-action list-group-item-danger">Danger</a>
+                    <a class="list-group-item list-group-item-action list-group-item-primary">Primary</a>
+                    <a class="list-group-item list-group-item-action list-group-item-dark">Dark</a>
+                    <a class="list-group-item list-group-item-action list-group-item-light">Light</a>
+                </ul>
+            </div>
+            <br><hr><br>
+
+            <div class="row justify-content-around">
+                <h3>Cards</h3>
+
+                <div class="card col-3 m-3" style="width: 400px;">
+                    <img src="img_avatar1.png" class="card-img-top">
+                    <div class="card-body">
+                        <h4 class="card-title">John Doe</h4>
+                        <p class="card-text">
+                            Hello World!!! I am John Doe Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                        </p>
+                        <a href="#" class="btn btn-primary" style="width: 100%;">See My Profile</a>
+                    </div>
+                </div>
+
+                <div class="card col-3 m-3" style="width: 400px;">
+                    <div class="card-body">
+                        <h4 class="card-title">John Doe</h4>
+                        <p class="card-text">
+                            Hello World!!! I am John Doe Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                        </p>
+                        <a href="#" class="btn btn-primary" style="width: 100%;">See My Profile</a>
+                    </div>
+                    <img src="img_avatar5.png" class="card-img-bottom">
+                </div>
+
+                <div class="card img-fluid col-5 m-3" style="width: 400px;">
+                    <img src="img_avatar1.png" class="card-img-top" style="width: 100%; height: 100%;">
+                    <div class="card-img-overlay">
+                        <h4 class="card-title">John Doe</h4>
+                        <p class="card-text">
+                            Hello World!!! I am John Doe Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                        </p>
+                        <a href="#" class="btn btn-primary">See My Profile</a>
+                    </div>
+                </div>
+            </div>
+            <br><hr><br>
+
+            <div>
+                <div class="row justify-content-between m-3">
+                    <h3>Dropdowns</h3>
+
+                    <div class="dropdown col">
+                        <button class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
+                            Dropdown Button
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a href="#" class="dropdown-item">Item 1</a></li>
+                            <li><a href="#" class="dropdown-item">Item 2</a></li>
+                            <li><a href="#" class="dropdown-item">Item 3</a></li>
+                            <li><a href="#" class="dropdown-item disabled">Disabeld Item</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="dropdown col">
+                        <button class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
+                            Dropdown Active Item
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a href="#" class="dropdown-item">Item 1</a></li>
+                            <li><a href="#" class="dropdown-item active">Item 2</a></li>
+                            <li><a href="#" class="dropdown-item">Item 3</a></li>
+                            <li><a href="#" class="dropdown-item disabled">Disabeld Item</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="dropdown col">
+                        <button class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
+                            Dropdown Divider And Header
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <h4 class="dropdown-header">Dropdown Header 1</h4>
+                            </li>
+                            <li><a href="#" class="dropdown-item">Item 1</a></li>
+                            <li><a href="#" class="dropdown-item">Item 2</a></li>
+                            <li><a href="#" class="dropdown-item">Item 3</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li>
+                                <h4 class="dropdown-header">Dropdown Header 2</h4>
+                            </li>
+                            <li><a href="#" class="dropdown-item">Item 4</a></li>
+                            <li><a href="#" class="dropdown-item">Item 5</a></li>
+                            <li><a href="#" class="dropdown-item disabled">Item Disabled</a></li>
+                        </ul>
+                    </div>
+                    <br>
+                </div>
+
+                <div class="row justify-content-between m-3">
+                    <div class="dropdown dropend col">
+                        <button class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
+                            Dropleft Item
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a href="#" class="dropdown-item">Item 1</a></li>
+                            <li><a href="#" class="dropdown-item">Item 2</a></li>
+                            <li><a href="#" class="dropdown-item active">Item 3</a></li>
+                            <li><a href="#" class="dropdown-item disabled">Disabeld Item</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="dropdown dropstart col">
+                        <button class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
+                            Dropright Item
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a href="#" class="dropdown-item">Item 1</a></li>
+                            <li><a href="#" class="dropdown-item">Item 2</a></li>
+                            <li><a href="#" class="dropdown-item active">Item 3</a></li>
+                            <li><a href="#" class="dropdown-item disabled">Disabeld Item</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="dropup col">
+                        <button class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
+                            Dropup with Text Item
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a href="#" class="dropdown-item">Item 1</a></li>
+                            <li><a href="#" class="dropdown-item">Item 2</a></li>
+                            <li><a href="#" class="dropdown-item active">Item 3</a></li>
+                            <li><a href="#" class="dropdown-item disabled">Disabeld Item</a></li>
+                            <li><span class="dropdown-item-text">Text Item</span></li>
+                            <li><a href="#" class="dropdown-item-text">Text Link</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="dropdown col">
+                        <button class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
+                            Dropdown with Text Item
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a href="#" class="dropdown-item">Item 1</a></li>
+                            <li><a href="#" class="dropdown-item">Item 2</a></li>
+                            <li><a href="#" class="dropdown-item active">Item 3</a></li>
+                            <li><span class="dropdown-item-text">Text Item</span></li>
+                            <li><a href="#" class="dropdown-item-text">Text Link</a></li>
+                            <li><a href="#" class="dropdown-item disabled">Disabeld Item</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="row justify-content-between m-3">
+                    <div class="col btn-group-vertical">
+                        <button class="btn btn-primary">Ford</button>
+                        <button class="btn btn-primary">BMW</button>
+                        <div class="btn-group">
+                            <button class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">Dodge</button>
+                            <ul class="dropdown-menu">
+                                <li><a href="#" class="dropdown-item">Charger</a></li>
+                                <li><a href="#" class="dropdown-item">Challenger</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col btn-group">
+                        <button class="btn btn-primary">Ford</button>
+                        <button class="btn btn-primary">BMW</button>
+                        <div class="btn-group">
+                            <button class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">Dodge</button>
+                            <ul class="dropdown-menu">
+                                <li><a href="#" class="dropdown-item">Charger</a></li>
+                                <li><a href="#" class="dropdown-item">Challenger</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br><hr><br>
+
+            <div>
+                <div>
+                    <h3>Collapsible</h3>
+                    <button class="btn btn-primary" data-bs-toggle="collapse"
+                        data-bs-target="#demo">Collapsible</button>
+                    <div id="demo" class="collapse">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis beatae distinctio
+                        consectetur at atque quibusdam.
+                    </div>
+                </div>
+
+                <div class="accordion">
+                    <h3>Accordion</h3>
+                    <div class="card">
+                        <div class="card-header">
+                            <a class="btn" data-bs-toggle="collapse" href="#collapseOne">
+                                Collapsible Group Item - 1
+                            </a>
+                        </div>
+                        <div id="collapseOne" class="collapse show" data-bs-parent="#accordion">
+                            <div class="card-body">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae optio eligendi,
+                                excepturi velit sed unde, quam laboriosam consectetur corporis quibusdam possimus vitae
+                                distinctio deleniti harum facere recusandae odio doloremque vero! Obcaecati numquam
+                                doloribus dicta unde, velit assumenda laboriosam corporis qui atque ut animi delectus
+                                ipsam voluptates, architecto suscipit distinctio fugit modi. Odit laboriosam laborum
+                                quos pariatur quis cum natus quo.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                            <a class="btn" data-bs-toggle="collapse" href="#collapseTwo">
+                                Collapsible Group Item - 1
+                            </a>
+                        </div>
+                        <div id="collapseTwo" class="collapse show" data-bs-parent="#accordion">
+                            <div class="card-body">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae optio eligendi,
+                                excepturi velit sed unde, quam laboriosam consectetur corporis quibusdam possimus vitae
+                                distinctio deleniti harum facere recusandae odio doloremque vero! Obcaecati numquam
+                                doloribus dicta unde, velit assumenda laboriosam corporis qui atque ut animi delectus
+                                ipsam voluptates, architecto suscipit distinctio fugit modi. Odit laboriosam laborum
+                                quos pariatur quis cum natus quo.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                            <a class="btn" data-bs-toggle="collapse" href="#collapseThree">
+                                Collapsible Group Item - 1
+                            </a>
+                        </div>
+                        <div id="collapseThree" class="collapse show" data-bs-parent="#accordion">
+                            <div class="card-body">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae optio eligendi,
+                                excepturi velit sed unde, quam laboriosam consectetur corporis quibusdam possimus vitae
+                                distinctio deleniti harum facere recusandae odio doloremque vero! Obcaecati numquam
+                                doloribus dicta unde, velit assumenda laboriosam corporis qui atque ut animi delectus
+                                ipsam voluptates, architecto suscipit distinctio fugit modi. Odit laboriosam laborum
+                                quos pariatur quis cum natus quo.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br><hr><br>
+
+            <div>
+                <h3>Navs</h3>
+                <div class="nav nav-tabs">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link active">Active</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Link 1</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Link 2</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Link 3</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link disabled">Disabeld</a>
+                    </li>
+                </div>
+                <br>
+
+                <div class="nav nav-pills">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link active">Active</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Link 1</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Link 2</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Link 3</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link disabled">Disabeld</a>
+                    </li>
+                </div>
+                <br>
+
+                <div class="nav nav-tabs nav-justified">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link active">Active</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Link 1</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Link 2</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Link 3</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link disabled">Disabeld</a>
+                    </li>
+                </div>
+                <br>
+
+                <div class="nav nav-pills nav-justified">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link active">Active</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Link 1</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Link 2</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Link 3</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link disabled">Disabeld</a>
+                    </li>
+                </div>
+                <br>
+
+                <div>
+                    <ul class="nav nav-tabs" role="tablist">
+                        <li class="nav-item">
+                            <a href="#home" class="nav-link active" data-bs-toggle="tab">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#menu1" class="nav-link" data-bs-toggle="tab">Menu 1</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#menu2" class="nav-link" data-bs-toggle="tab">Manu 2</a>
+                        </li>
+                    </ul>
+
+                    <div class="tab-content">
+                        <div id="home" class="container tab-pane active">
+                            <h3>Home</h3>
+                            <p>
+                                Home Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit corrupti nesciunt
+                                ratione voluptas quo possimus magnam sapiente vero itaque labore, facilis aut amet in
+                                voluptate nam consectetur blanditiis illo accusantium?
+                            </p>
+                        </div>
+                        <div id="menu1" class="container tab-pane fade">
+                            <h3>Menu 1</h3>
+                            <p>
+                                Menu 1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto suscipit
+                                magnam nobis autem exercitationem alias possimus dolorem necessitatibus, iste sed rerum
+                                aliquam provident repudiandae, nemo saepe iure similique, qui ratione.
+                            </p>
+                        </div>
+                        <div id="menu2" class="container tab-pane fade">
+                            <h3>Menu 2</h3>
+                            <p>
+                                Hello World! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi aliquam
+                                harum vitae commodi similique expedita velit alias quisquam fugit. Dolores facere veniam
+                                maxime ipsam repudiandae quidem nam magnam officia expedita.
+                            </p>
+                        </div>
+                    </div>
+                    <br>
+
+                    <ul class="nav nav-pills" role="tablist">
+                        <li class="nav-item">
+                            <a href="#homee" class="nav-link active" data-bs-toggle="pill">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#menu11" class="nav-link" data-bs-toggle="pill">Menu 1</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#menu22" class="nav-link" data-bs-toggle="pill">Manu 2</a>
+                        </li>
+                    </ul>
+
+                    <div class="tab-content">
+                        <div id="homee" class="container tab-pane active">
+                            <h3>Home</h3>
+                            <p>
+                                Home Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit corrupti nesciunt
+                                ratione voluptas quo possimus magnam sapiente vero itaque labore, facilis aut amet in
+                                voluptate nam consectetur blanditiis illo accusantium?
+                            </p>
+                        </div>
+                        <div id="menu11" class="container tab-pane fade">
+                            <h3>Menu 1</h3>
+                            <p>
+                                Menu 1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto suscipit
+                                magnam nobis autem exercitationem alias possimus dolorem necessitatibus, iste sed rerum
+                                aliquam provident repudiandae, nemo saepe iure similique, qui ratione.
+                            </p>
+                        </div>
+                        <div id="menu22" class="container tab-pane fade">
+                            <h3>Menu 2</h3>
+                            <p>
+                                Hello World! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi aliquam
+                                harum vitae commodi similique expedita velit alias quisquam fugit. Dolores facere veniam
+                                maxime ipsam repudiandae quidem nam magnam officia expedita.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br><hr><br>
+            
+            <div>
+                <h3>Navbars</h3>
+
+                <div class="navbar navbar-expand-sm bg-primary navbar-dark">
+                    <div class="container-fluid">
+                        <ul class="navbar-nav">
+                            <li class="navbar-brand">
+                                <img src="img_avatar5.png" style="width: 30px;" class="rounded-pill">
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link active">Active</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Item 1</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Item 2</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link disabled">Disabeld</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <br>
+
+                <div class="navbar navbar-expand-sm bg-success navbar-dark">
+                    <div class="container-fluid">
+                        <ul class="navbar-nav">
+                            <li class="navbar-brand">
+                                <img src="img_avatar1.png" style="width: 30px;" class="rounded-pill">
+                            </li>
+                            <a href="#" class="nav-item nav-link active">Active</a>
+                            <a href="#" class="nav-item nav-link">Item 1</a>
+                            <a href="#" class="nav-item nav-link">Item 2</a>
+                            <a href="#" class="nav-item nav-link disabled">Disabeld</a>
+                        </ul>
+                    </div>
+                </div>
+                <br>
+
+                <div class="navbar navbar-expand-sm bg-danger navbar-light">
+                    <div class="container-fluid">
+                        <ul class="navbar-nav">
+                            <li class="navbar-brand">
+                                <img src="img_avatar1.png" style="width: 30px;" class="rounded-pill">
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link active">Active</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Item 1</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Item 2</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link disabled">Disabeld</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <br>
+
+                <div class="navbar navbar-expand-md bg-warning navbar-light">
+                    <div class="container-fluid">
+                        <a class="navbar-brand">
+                            <img src="img_avatar1.png" style="width: 30px;" class="rounded-pill">
+                        </a>
+                        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link active">Active</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">Item 1</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">Item 2</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown">Dropdown</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#" class="dropdown-item">Item 1</a></li>
+                                        <li><a href="#" class="dropdown-item">Item 2</a></li>
+                                        <li><a href="#" class="dropdown-item">Item 3</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <br>
+
+                <nav class="navbar navbar-expand-md bg-dark navbar-dark sticky-top">
+                    <div class="container-fluid">
+                        <a class="navbar-brand">
+                            <img src="img_avatar5.png" style="width: 30px;" class="rounded-pill">
+                        </a>
+                        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#myNavbar">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="myNavbar">
+                            <ul class="navbar-nav me-auto">
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link active">Active</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">Item 1</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">Item 2</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown">Dropdown</a>
+                                    <ul class="dropdown-menu mb-2">
+                                        <li><a href="#" class="dropdown-item">Item 1</a></li>
+                                        <li><a href="#" class="dropdown-item">Item 2</a></li>
+                                        <li><a href="#" class="dropdown-item">Item 3</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <form class="d-flex">
+                                <input type="text" class="form-control me-2" placeholder="Search...">
+                                <button class="btn btn-primary" type="button">Search</button>
+                            </form>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <br><hr><br>
+           
+            <div class="container-fluid">
+                <h3>Carousel With Caption</h3>
+                <!-- Carousel -->
+                <div id="demo" class="carousel slide" data-bs-ride="carousel">
+                    <!-- Indicators/Dots -->
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                        <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+                    </div>
+
+                    <!-- The Slideshow/Carousel  -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="la.jpeg" alt="Los Angeles" class="d-block" style="width: 100%;">
+                            <div class="carousel-caption">
+                                <h3>Los Angeles</h3>
+                                <p>We had such a great time in LA!</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="chicago.jpeg" alt="Chicago" class="d-block" style="width: 100%;">
+                            <div class="carousel-caption">
+                                <h3>Chicago</h3>
+                                <p>Thank You! Chicago!!!</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="ny.jpeg" alt="New York" class="d-block" style="width: 100%;">
+                            <div class="carousel-caption">
+                                <h3>New York</h3>
+                                <p>We love the Big Apple!</p>
+                            </div>
+                        </div>
+                    </div>
+
+                     <!-- Left And Right Controls/Icons -->
+                    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                </div>
+            </div>
+            <br><hr><br>
+
+            <div>
+                <h3>Model</h3>
+                <div>
+                    <h4>Modal Normal</h4>
+                    <p>Click on the button to open the model</p>
+                    <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
+                        Open Modal
+                    </button>
+                    <!-- The modal -->
+                    <div class="modal" id="myModal">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <!-- modal header -->
+                                <div class="modal-header">
+                                    <h4 class="modal-title">Modal Heading</h4>
+                                    <button class="btn-close" data-bs-dismiss="modal"></button>
+                                </div>
+
+                                <!-- modal body -->
+                                <div class="modal-body">
+                                    Modal Body...
+                                </div>
+
+                                <!-- modal footer -->
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+
+                <div>
+                    <h4>Modal Animated And Scrollable</h4>
+                    <p>Click on the button to open the model</p>
+                    <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal1">
+                        Open Modal
+                    </button>
+                    <!-- The modal -->
+                    <div class="modal fade" id="myModal1">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <!-- modal header -->
+                                <div class="modal-header">
+                                    <h4 class="modal-title">Modal Heading</h4>
+                                    <button class="btn-close" data-bs-dismiss="modal"></button>
+                                </div>
+
+                                <!-- modal body -->
+                                <div class="modal-body">
+                                   <h3>Modal Scrollable</h3>
+                                   <p>
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam, doloribus! Odio, eius sequi dicta veritatis iste, suscipit, voluptatibus explicabo temporibus dolore rerum animi nostrum esse ad culpa ipsum non perspiciatis! Ea unde sit consectetur eius, numquam perferendis impedit totam hic sapiente mollitia accusantium odio necessitatibus commodi deserunt, doloremque soluta ipsam rem illum. Et cumque ad dolore fugiat officia labore eius aspernatur odit in sunt optio laborum, fugit voluptatum exercitationem soluta ipsam nesciunt recusandae! Tempora velit voluptas maxime illo sed reprehenderit, ut magnam facere unde at esse nulla labore ratione molestiae quo nihil fuga. Aliquam ipsam culpa reprehenderit, non nemo iusto!
+                                   </p>
+                                   <p>
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam, doloribus! Odio, eius sequi dicta veritatis iste, suscipit, voluptatibus explicabo temporibus dolore rerum animi nostrum esse ad culpa ipsum non perspiciatis! Ea unde sit consectetur eius, numquam perferendis impedit totam hic sapiente mollitia accusantium odio necessitatibus commodi deserunt, doloremque soluta ipsam rem illum. Et cumque ad dolore fugiat officia labore eius aspernatur odit in sunt optio laborum, fugit voluptatum exercitationem soluta ipsam nesciunt recusandae! Tempora velit voluptas maxime illo sed reprehenderit, ut magnam facere unde at esse nulla labore ratione molestiae quo nihil fuga. Aliquam ipsam culpa reprehenderit, non nemo iusto!
+                                   </p>
+                                   <p>
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam, doloribus! Odio, eius sequi dicta veritatis iste, suscipit, voluptatibus explicabo temporibus dolore rerum animi nostrum esse ad culpa ipsum non perspiciatis! Ea unde sit consectetur eius, numquam perferendis impedit totam hic sapiente mollitia accusantium odio necessitatibus commodi deserunt, doloremque soluta ipsam rem illum. Et cumque ad dolore fugiat officia labore eius aspernatur odit in sunt optio laborum, fugit voluptatum exercitationem soluta ipsam nesciunt recusandae! Tempora velit voluptas maxime illo sed reprehenderit, ut magnam facere unde at esse nulla labore ratione molestiae quo nihil fuga. Aliquam ipsam culpa reprehenderit, non nemo iusto!
+                                   </p>
+                                   <p>
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam, doloribus! Odio, eius sequi dicta veritatis iste, suscipit, voluptatibus explicabo temporibus dolore rerum animi nostrum esse ad culpa ipsum non perspiciatis! Ea unde sit consectetur eius, numquam perferendis impedit totam hic sapiente mollitia accusantium odio necessitatibus commodi deserunt, doloremque soluta ipsam rem illum. Et cumque ad dolore fugiat officia labore eius aspernatur odit in sunt optio laborum, fugit voluptatum exercitationem soluta ipsam nesciunt recusandae! Tempora velit voluptas maxime illo sed reprehenderit, ut magnam facere unde at esse nulla labore ratione molestiae quo nihil fuga. Aliquam ipsam culpa reprehenderit, non nemo iusto!
+                                   </p>
+                                </div>
+
+                                <!-- modal footer -->
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+
+                <div>
+                    <h4>Modal Animated And Scrollable dialog</h4>
+                    <p>Click on the button to open the model</p>
+                    <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal2">
+                        Open Modal
+                    </button>
+                    <!-- The modal -->
+                    <div class="modal fade" id="myModal2">
+                        <div class="modal-dialog modal-dialog-scrollable">
+                            <div class="modal-content">
+                                <!-- modal header -->
+                                <div class="modal-header">
+                                    <h4 class="modal-title">Modal Heading</h4>
+                                    <button class="btn-close" data-bs-dismiss="modal"></button>
+                                </div>
+
+                                <!-- modal body -->
+                                <div class="modal-body">
+                                   <h3>Modal Scrollable</h3>
+                                   <p>
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam, doloribus! Odio, eius sequi dicta veritatis iste, suscipit, voluptatibus explicabo temporibus dolore rerum animi nostrum esse ad culpa ipsum non perspiciatis! Ea unde sit consectetur eius, numquam perferendis impedit totam hic sapiente mollitia accusantium odio necessitatibus commodi deserunt, doloremque soluta ipsam rem illum. Et cumque ad dolore fugiat officia labore eius aspernatur odit in sunt optio laborum, fugit voluptatum exercitationem soluta ipsam nesciunt recusandae! Tempora velit voluptas maxime illo sed reprehenderit, ut magnam facere unde at esse nulla labore ratione molestiae quo nihil fuga. Aliquam ipsam culpa reprehenderit, non nemo iusto!
+                                   </p>
+                                   <p>
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam, doloribus! Odio, eius sequi dicta veritatis iste, suscipit, voluptatibus explicabo temporibus dolore rerum animi nostrum esse ad culpa ipsum non perspiciatis! Ea unde sit consectetur eius, numquam perferendis impedit totam hic sapiente mollitia accusantium odio necessitatibus commodi deserunt, doloremque soluta ipsam rem illum. Et cumque ad dolore fugiat officia labore eius aspernatur odit in sunt optio laborum, fugit voluptatum exercitationem soluta ipsam nesciunt recusandae! Tempora velit voluptas maxime illo sed reprehenderit, ut magnam facere unde at esse nulla labore ratione molestiae quo nihil fuga. Aliquam ipsam culpa reprehenderit, non nemo iusto!
+                                   </p>
+                                   <p>
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam, doloribus! Odio, eius sequi dicta veritatis iste, suscipit, voluptatibus explicabo temporibus dolore rerum animi nostrum esse ad culpa ipsum non perspiciatis! Ea unde sit consectetur eius, numquam perferendis impedit totam hic sapiente mollitia accusantium odio necessitatibus commodi deserunt, doloremque soluta ipsam rem illum. Et cumque ad dolore fugiat officia labore eius aspernatur odit in sunt optio laborum, fugit voluptatum exercitationem soluta ipsam nesciunt recusandae! Tempora velit voluptas maxime illo sed reprehenderit, ut magnam facere unde at esse nulla labore ratione molestiae quo nihil fuga. Aliquam ipsam culpa reprehenderit, non nemo iusto!
+                                   </p>
+                                   <p>
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam, doloribus! Odio, eius sequi dicta veritatis iste, suscipit, voluptatibus explicabo temporibus dolore rerum animi nostrum esse ad culpa ipsum non perspiciatis! Ea unde sit consectetur eius, numquam perferendis impedit totam hic sapiente mollitia accusantium odio necessitatibus commodi deserunt, doloremque soluta ipsam rem illum. Et cumque ad dolore fugiat officia labore eius aspernatur odit in sunt optio laborum, fugit voluptatum exercitationem soluta ipsam nesciunt recusandae! Tempora velit voluptas maxime illo sed reprehenderit, ut magnam facere unde at esse nulla labore ratione molestiae quo nihil fuga. Aliquam ipsam culpa reprehenderit, non nemo iusto!
+                                   </p>
+                                </div>
+
+                                <!-- modal footer -->
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br><hr><br>
+
+            <div>
+                <h3>Toest</h3>
+                <div class="toast show">
+                    <div class="toast-header">
+                        <strong class="me-auto">Toest Header</strong>
+                        <button class="btn-close" data-bs-dismiss="toast"></button>
+                    </div>
+                    <div class="toast-body">
+                        <p>Some text insde the toest body</p>   
+                    </div>
+                </div>
+            </div>
+            <br><hr><br>
+
+            <div>
+                <h3>Scrollspy</h3>
+
+                <div data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
+                    <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top" >
+                        <div class="container-fluid">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a href="#section1" class="nav-link">Section 1</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#section2" class="nav-link">Section 2</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#section2" class="nav-link">Section 2</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+
+                    <div id="section1" class="container-fluid bg-success text-white" style="padding: 100px 20px;">
+                        <h3>Section 1</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor veniam odit enim incidunt doloremque ipsum, similique reprehenderit vel numquam? Cupiditate eligendi iste fugit quo tempora blanditiis nesciunt aut ex officiis!
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor veniam odit enim incidunt doloremque ipsum, similique reprehenderit vel numquam? Cupiditate eligendi iste fugit quo tempora blanditiis nesciunt aut ex officiis!
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor veniam odit enim incidunt doloremque ipsum, similique reprehenderit vel numquam? Cupiditate eligendi iste fugit quo tempora blanditiis nesciunt aut ex officiis!
+                        </p>
+                    </div>
+                    <div id="section2" class="container-fluid bg-warning" style="padding: 100px 20px;">
+                        <h3>Section 2</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor veniam odit enim incidunt doloremque ipsum, similique reprehenderit vel numquam? Cupiditate eligendi iste fugit quo tempora blanditiis nesciunt aut ex officiis!
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor veniam odit enim incidunt doloremque ipsum, similique reprehenderit vel numquam? Cupiditate eligendi iste fugit quo tempora blanditiis nesciunt aut ex officiis!
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor veniam odit enim incidunt doloremque ipsum, similique reprehenderit vel numquam? Cupiditate eligendi iste fugit quo tempora blanditiis nesciunt aut ex officiis!
+                        </p>
+                    </div>
+                    <div id="section3" class="container-fluid bg-primary text-white" style="padding: 100px 20px;">
+                        <h3>Section 3</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor veniam odit enim incidunt doloremque ipsum, similique reprehenderit vel numquam? Cupiditate eligendi iste fugit quo tempora blanditiis nesciunt aut ex officiis!
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor veniam odit enim incidunt doloremque ipsum, similique reprehenderit vel numquam? Cupiditate eligendi iste fugit quo tempora blanditiis nesciunt aut ex officiis!
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor veniam odit enim incidunt doloremque ipsum, similique reprehenderit vel numquam? Cupiditate eligendi iste fugit quo tempora blanditiis nesciunt aut ex officiis!
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <br><hr><br>
+
+            <div>
+                <h3>OffCanvas Sidebar</h3>
+
+                <div>
+                    <div class="offcanvas offcanvas-start" id="demo1">
+                        <div class="offcanvas-header">
+                            <h3 class="offcanvas-title">Heading</h3>
+                            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <p>Some text Lorem Ipsum.</p>
+                            <p>Some text Lorem Ipsum.</p>
+                            <p>Some text Lorem Ipsum.</p>
+                            <button class="btn btn-secondary">A Button</button>
+                        </div>
+                    </div>
+                    <button class="btn btn-primary" data-bs-toggle="offcanvas" data-bs-target="#demo1">
+                        Open Offcanvas Sidebar Left
+                    </button>
+                </div>
+                <br>
+                
+                <div>
+                    <div class="offcanvas offcanvas-end" id="demo2">
+                        <div class="offcanvas-header">
+                            <h3 class="offcanvas-title">Heading</h3>
+                            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <p>Some text Lorem Ipsum.</p>
+                            <p>Some text Lorem Ipsum.</p>
+                            <p>Some text Lorem Ipsum.</p>
+                            <button class="btn btn-secondary">A Button</button>
+                        </div>
+                    </div>
+                    <button class="btn btn-primary" data-bs-toggle="offcanvas" data-bs-target="#demo2">
+                        Open Offcanvas Sidebar Right
+                    </button>
+                </div>
+                <br>
+                
+                <div>
+                    <div class="offcanvas offcanvas-top" id="demo3">
+                        <div class="offcanvas-header">
+                            <h3 class="offcanvas-title">Heading</h3>
+                            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <p>Some text Lorem Ipsum.</p>
+                            <p>Some text Lorem Ipsum.</p>
+                            <p>Some text Lorem Ipsum.</p>
+                            <button class="btn btn-secondary">A Button</button>
+                        </div>
+                    </div>
+                    <button class="btn btn-primary" data-bs-toggle="offcanvas" data-bs-target="#demo3">
+                        Open Offcanvas Sidebar Top
+                    </button>
+                </div>
+                <br>
+                
+                <div>
+                    <div class="offcanvas offcanvas-bottom" id="demo4">
+                        <div class="offcanvas-header">
+                            <h3 class="offcanvas-title">Heading</h3>
+                            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <p>Some text Lorem Ipsum.</p>
+                            <p>Some text Lorem Ipsum.</p>
+                            <p>Some text Lorem Ipsum.</p>
+                            <button class="btn btn-secondary">A Button</button>
+                        </div>
+                    </div>
+                    <button class="btn btn-primary" data-bs-toggle="offcanvas" data-bs-target="#demo4">
+                        Open Offcanvas Sidebar Bottom
+                    </button>
+                </div>
+                <br>
+             
+                <div>
+                    <div class="offcanvas offcanvas-start text-bg-dark" id="demo5">
+                        <div class="offcanvas-header">
+                            <h3 class="offcanvas-title">Heading</h3>
+                            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <p>Some text Lorem Ipsum.</p>
+                            <p>Some text Lorem Ipsum.</p>
+                            <p>Some text Lorem Ipsum.</p>
+                            <button class="btn btn-secondary">A Button</button>
+                        </div>
+                    </div>
+                    <button class="btn btn-primary" data-bs-toggle="offcanvas" data-bs-target="#demo5">
+                        Open Offcanvas Dark
+                    </button>
+                </div>
+            </div>
+            <br><hr><br>
+
+            <div>
+                <h3>Utilities</h3>
+
+                <div>
+                    <h4>Borders</h4>
+                    <div>
+                        <p><b>Borders</b></p>
+                   
+                        <span class="box1 border"></span>
+                        <span class="box1 border border-0"></span>
+                        <span class="box1 border border-top-0"></span>
+                        <span class="box1 border border-end-0"></span>
+                        <span class="box1 border border-bottom-0"></span>
+                        <span class="box1 border border-start-0"></span>
+                        <br>
+
+                        <span class="box1 border-top"></span>
+                        <span class="box1 border-end"></span>
+                        <span class="box1 border-start"></span>
+                        <span class="box1 border-bottom"></span>
+                    </div>
+                    <br>
+                    
+                    <div>
+                        <p><b>Border Width</b></p>
+
+                        <span class="box1 border border-1"></span>
+                        <span class="box1 border border-2"></span>
+                        <span class="box1 border border-3"></span>
+                        <span class="box1 border border-4"></span>
+                        <span class="box1 border border-5"></span>
+                    </div>
+                    <br>
+
+                    <div>
+                        <p><b>Border Color</b></p>
+
+                        <span class="box1 border border-primary"></span>
+                        <span class="box1 border border-secondary"></span>
+                        <span class="box1 border border-success"></span>
+                        <span class="box1 border border-danger"></span>
+                        <span class="box1 border border-warning"></span>
+                        <span class="box1 border border-info"></span>
+                        <span class="box1 border border-light"></span>
+                        <span class="box1 border border-dark"></span>
+                        <span class="box1 border border-white"></span>
+                    </div>
+                    <br>
+
+                    <div>
+                        <p><b>Border Radius</b></p>
+
+                        <span class="box2 rounded"></span>
+                        <span class="box2 rounded-top"></span>
+                        <span class="box2 rounded-end"></span>
+                        <span class="box2 rounded-bottom"></span>
+                        <span class="box2 rounded-start"></span>
+                        <span class="box2 rounded-circle"></span>
+                        <span class="box2 rounded-pill" style="width: 130px;"></span>
+                        <span class="box2 rounded-0"></span>
+                        <span class="box2 rounded-1"></span>
+                        <span class="box2 rounded-2"></span>
+                        <span class="box2 rounded-3"></span>
+                        <span class="box2 rounded-4"></span>
+                        <span class="box2 rounded-5"></span>
+                    </div>
+                </div>
+                <br>
+
+                <div>
+                    <h4>Float</h4>
+
+                    <div class="clearfix">
+                        <button class="float-start btn btn-primary">Float Left</button>
+                        <button class="float-end btn btn-primary">Float Right</button>
+                    </div>
+                    <br>
+
+                    <h4>Responsive Float</h4>
+                    <div class="clearfix">
+                        <div class="float-sm-end">Float right on small screens or wider</div> <br>
+                        <div class="float-md-end">Float right on medium screens or wider</div> <br>
+                        <div class="float-lg-end">Float right on large screens or wider</div> <br>
+                        <div class="float-xl-end">Float right on extra large screens or wider</div> <br>
+                        <div class="float-xxl-end">Float right on extra extra screens or wider</div> <br>
+                        <div class="float-none">Float none</div>
+                    </div>
+                </div>
+                <br>
+
+                <div>
+                    <h4>Center Align</h4>
+
+                    <h4 class="mx-auto bg-warning" style="width: 150px; padding: 10px;">Centerd</h4>
+                </div>
+                <br>
+
+                <div>
+                    <h4>Width</h4>
+
+                    <div class="w-25 bg-primary text-white" style="padding: 10px;">Width - 25%</div>
+                    <div class="w-50 bg-warning" style="padding: 10px;">Width - 50%</div>
+                    <div class="w-75 bg-danger text-white" style="padding: 10px;">Width - 75%</div>
+                    <div class="w-100 bg-success text-white" style="padding: 10px;">Width - 100%</div>
+                    <div class="w-auto bg-secondary text-white" style="padding: 10px;">Width - Auto</div>
+                    <div class="mw-100 bg-dark text-white" style="padding: 10px;">Max-Width - 100%</div>
+                </div>
+                <br>
+
+                <div>
+                    <h4>Height</h4>
+
+                    <div style="height: 200px; background-color: #ddd;">
+                        <div class="h-25 d-inline-block bg-primary text-white" style="padding: 10px;">Height - 25%</div>
+                        <div class="h-50 d-inline-block bg-warning" style="padding: 10px;">Height - 50%</div>
+                        <div class="h-75 d-inline-block bg-danger text-white" style="padding: 10px;">Height - 75%</div>
+                        <div class="h-100 d-inline-block bg-success text-white" style="padding: 10px;">Height - 100%</div>
+                        <div class="h-auto d-inline-block bg-secondary text-white" style="padding: 10px;">Height - Auto</div>
+                        <div class="h-100 d-inline-block bg-dark text-white" style="height:500px; padding: 10px;">Max-Height - 100%</div>
+                    </div>
+                </div>
+                <br>
+
+                <div>
+                    <h4>Padding</h4>
+
+                    <div class="p-0 bg-warning">No Padding All Side p-0 (0rem)</div> <br>
+                    <div class="pt-1 bg-warning">Padding Top Side p-1 (0.25rem)</div> <br>
+                    <div class="pb-2 bg-warning">Padding Bottom Side p-2 (0.5rem)</div> <br>
+                    <div class="ps-3 bg-warning">Padding Left Side p-3 (1rem)</div> <br>
+                    <div class="pe-4 bg-warning">Padding Right Side p-4 (1.5rem)</div> <br>
+                    <div class="p-3 bg-warning">Padding All Side p-3 (1rem)</div> <br>
+                    <div class="p-5 bg-warning">Padding All Side p-5 (3rem)</div> <br>
+                </div>
+                <br>
+
+                <div>
+                    <h4>Margin</h4>
+
+                    <div class="m-0 p-3 text-white">No Margin All Side p-3 m-0 (0rem)</div> <br>
+                    <div class="mt-1 p-3 bg-primary text-white">Margin Top p-3 mt-1 (0.25rem)</div> <br>
+                    <div class="mb-2 p-3 bg-primary text-white">Margin Bottom Side p-3 mb-2 (0.5rem)</div> <br>
+                    <div class="ms-3 p-3 bg-primary text-white">Margin Left Side p-3 ms-3 (1rem)</div> <br>
+                    <div class="me-4 p-3 bg-primary text-white">Margin Right Side p-3 me-4 (1.5rem)</div> <br>
+                    <div class="m-3 p-3 bg-primary text-white"> Margin All Side p-3 m-3 (1rem)</div> <br>
+                    <div class="m-5 p-3 bg-primary text-white">Margin All Side p-3 m-5 (3rem)</div> <br>
+                </div>
+                <br>
+
+                <div>
+                    <h4>Shadows</h4>
+
+                    <div class="shadow-none p-4 m-4 bg-light">No Shadow</div>
+                    <div class="shadow-sm p-4 m-4 bg-light">Small Shadow</div>
+                    <div class="shadow p-4 m-4 bg-light">Default Shadow</div>
+                    <div class="shadow-lg p-4 m-4 bg-light">Large Shadow</div>
+                </div>
+                <br>
+
+                <div>
+                    <h3>Vertical Align</h3>
+
+                    <div class="m-3 p-3 bg-warning">
+                        <span class="align-baseline bg-dark text-white p-2">Baseline</span>
+                        <span class="align-top bg-dark text-white p-2">Top</span>
+                        <span class="align-middle bg-dark text-white p-2">Middle</span>
+                        <span class="align-bottom bg-dark text-white p-2">Bottom</span>
+                        <span class="align-text-top bg-dark text-white p-2">Text-Top</span>
+                        <span class="align-text-bottom bg-dark text-white p-2">Text-Bottom</span>
+                    </div>
+                </div>
+                <br>
+
+                <div>
+                    <h4>Colors</h4>
+
+                    <p class="text-muted">Muted</p>
+                    <p class="text-primary">Primary</p>
+                    <p class="text-success">Success</p>
+                    <p class="text-info">Info</p>
+                    <p class="text-warning">Warning</p>
+                    <p class="text-danger">Danger</p>
+                    <p class="text-secondary">Secondary</p>
+                    <p class="text-dark">Dark</p>
+                    <p class="text-body">Body</p>
+                    <p class="text-light">Light</p>
+                    <p class="text-white">White</p>
+                </div>
+                <br>
+
+                <div>
+                    <h4>Background Colors</h4>
+
+                    <p class="bg-primary p-3 text-white">Primary</p>
+                    <p class="bg-success p-3">Success</p>
+                    <p class="bg-info p-3">Info</p>
+                    <p class="bg-warning p-3">Warning</p>
+                    <p class="bg-danger p-3">Danger</p>
+                    <p class="bg-secondary p-3 text-white">Secondary</p>
+                    <p class="bg-dark p-3 text-white">Dark</p>       
+                    <p class="bg-light p-3">Light</p>
+                </div>
+            </div>
+            <br><hr><br>
+
+            <div>
+                <h3>Dark Mode</h3>
+
+                <div class="container m-3">
+                    <h4>Default Mode</h4>
+                    <p>Hello World!</p>
+                    <div class="card mb-3">
+                        <div class="card-body">This is a card.</div>
+                    </div>
+                    <p>Some Buttons</p>
+                    <button class="btn btn-primary">Primary</button>
+                    <button class="btn btn-danger">Danger</button>
+                    <button class="btn btn-success">Success</button>
+                </div>
+                <br>
+                
+                <div class="container m-3">
+                    <h4>Dark Mode</h4>
+                    <p>Hello World!</p>
+                    <div class="card mb-3" data-bs-theme="dark">
+                        <div class="card-body">This is a card.</div>
+                    </div>
+                    <p>Some Buttons</p>
+                    <button class="btn btn-primary">Primary</button>
+                    <button class="btn btn-danger">Danger</button>
+                    <button class="btn btn-success">Success</button>
+                </div>
+            </div>
+            <br><hr><br>
+
+            <div>
+                <h3>Flex-Box</h3>
+
+                <div class="p-3">
+                    <h4>Flex Direction</h4>
+                    <h5>Flex-Direction - Row</h5>
+                    <div class="d-flex flex-row p-3 bg-secondary text-light">
+                        <div class="p-3 bg-danger">Flex Item-1</div>
+                        <div class="p-3 bg-warning">Flex Item-2</div>
+                        <div class="p-3 bg-primary">Flex Item-3</div>
+                    </div>
+                    <br>
+                
+                    <h5>Flex-Direction - Row-Reverse</h5>
+                    <div class="d-flex flex-row-reverse p-3 bg-secondary text-light">
+                        <div class="p-3 bg-danger">Flex Item-1</div>
+                        <div class="p-3 bg-warning">Flex Item-2</div>
+                        <div class="p-3 bg-primary">Flex Item-3</div>
+                    </div>
+                    <br>
+                    
+                    <h5>Flex-Direction - Column</h5>
+                    <div class="d-flex flex-column p-3 bg-secondary text-light">
+                        <div class="p-3 bg-danger">Flex Item-1</div>
+                        <div class="p-3 bg-warning">Flex Item-2</div>
+                        <div class="p-3 bg-primary">Flex Item-3</div>
+                    </div>
+                    <br>
+
+                    <h5>Flex-Direction - Column-Reverse</h5>
+                    <div class="d-flex flex-column-reverse p-3 bg-secondary text-light">
+                        <div class="p-3 bg-danger">Flex Item-1</div>
+                        <div class="p-3 bg-warning">Flex Item-2</div>
+                        <div class="p-3 bg-primary">Flex Item-3</div>
+                    </div>
+                </div>
+                <br>
+
+                <div class="p-3">
+                    <h4>Justify Content</h4>
+                    <h5>Justify Content - Start | FD-Row</h5>
+                    <div class="d-flex flex-row justify-content-start p-3 bg-secondary text-light">
+                        <div class="p-3 bg-danger">Flex Item-1</div>
+                        <div class="p-3 bg-warning">Flex Item-2</div>
+                        <div class="p-3 bg-primary">Flex Item-3</div>
+                    </div>
+                    <br>
+                    
+                    <h5>Justify Content - End | FD-Row</h5>
+                    <div class="d-flex flex-row justify-content-end p-3 bg-secondary text-light">
+                        <div class="p-3 bg-danger">Flex Item-1</div>
+                        <div class="p-3 bg-warning">Flex Item-2</div>
+                        <div class="p-3 bg-primary">Flex Item-3</div>
+                    </div>
+                    <br>
+                    
+                    <h5>Justify Content - Center | FD-Row</h5>
+                    <div class="d-flex flex-row justify-content-center p-3 bg-secondary text-light">
+                        <div class="p-3 bg-danger">Flex Item-1</div>
+                        <div class="p-3 bg-warning">Flex Item-2</div>
+                        <div class="p-3 bg-primary">Flex Item-3</div>
+                    </div>
+                    <br>
+                    
+                    <h5>Justify Content - Space-Between | FD-Row</h5>
+                    <div class="d-flex flex-row justify-content-between p-3 bg-secondary text-light">
+                        <div class="p-3 bg-danger">Flex Item-1</div>
+                        <div class="p-3 bg-warning">Flex Item-2</div>
+                        <div class="p-3 bg-primary">Flex Item-3</div>
+                    </div>
+                    <br>
+                    
+                    <h5>Justify Content - Space-Around | FD-Row</h5>
+                    <div class="d-flex flex-row justify-content-around p-3 bg-secondary text-light">
+                        <div class="p-3 bg-danger">Flex Item-1</div>
+                        <div class="p-3 bg-warning">Flex Item-2</div>
+                        <div class="p-3 bg-primary">Flex Item-3</div>
+                    </div>
+                    <br>
+                    
+                    <h5>Justify Content - Space-Evenly | FD-Row</h5>
+                    <div class="d-flex flex-row justify-content-evenly p-3 bg-secondary text-light">
+                        <div class="p-3 bg-danger">Flex Item-1</div>
+                        <div class="p-3 bg-warning">Flex Item-2</div>
+                        <div class="p-3 bg-primary">Flex Item-3</div>
+                    </div>
+                </div>
+                <br>
+
+                <div class="p-3">
+                    <h4>Fill/Equal Widths</h4>
+                    <div class="d-flex flex-row p-3 bg-secondary text-light">
+                        <div class="p-3 bg-danger flex-fill">Flex Item-1</div>
+                        <div class="p-3 bg-warning flex-fill">Flex Item-2</div>
+                        <div class="p-3 bg-primary flex-fill">Flex Item-3</div>
+                    </div>
+                </div>
+                <br>
+
+                <div class="p-3">
+                    <h4>Flex-Grow And Flex-Shrink</h4>
+                    <div class="d-flex flex-row p-3 bg-secondary text-light">
+                        <div class="p-3 bg-danger flex-grow-1 flex-shrink-1">Flex Item-1</div>
+                        <div class="p-3 bg-warning flex-shrink-0 flex-grow-1">Flex Item-2</div>
+                        <div class="p-3 bg-primary flex-grow-0 flex-shrink-1">Flex Item-3</div>
+                    </div>
+                </div>
+                <br>
+
+                <div class="p-3">
+                    <h4>Order</h4>
+                    <div class="d-flex flex-row p-3 bg-secondary text-light">
+                        <div class="p-3 bg-danger order-1">Flex Item-1</div>
+                        <div class="p-3 bg-warning order-3">Flex Item-2</div>
+                        <div class="p-3 bg-primary order-2">Flex Item-3</div>
+                    </div>
+                </div>
+                <br>
+
+                <div class="p-3">
+                    <h4>Auto Margines</h4>
+                    <div class="d-flex p-3 bg-secondary text-light">
+                        <div class="p-3 ms-auto bg-danger">Flex Item-1</div>
+                        <div class="p-3 bg-warning">Flex Item-2</div>
+                        <div class="p-3 bg-primary">Flex Item-3</div>
+                    </div>
+                    <br>
+
+                    <div class="d-flex p-3 bg-secondary text-light">
+                        <div class="p-3 bg-danger">Flex Item-1</div>
+                        <div class="p-3 bg-warning">Flex Item-2</div>
+                        <div class="p-3 me-auto bg-primary">Flex Item-3</div>
+                    </div>
+                </div>
+                <br>
+
+                <div class="p-3">
+                    <h4>Wrap</h4>
+                    <h5>Wrap - Flex-Wrap</h5>
+                    <div class="d-flex flex-wrap p-3 bg-secondary text-light">
+                        <div class="p-3 bg-danger">Flex Item-1</div>
+                        <div class="p-3 bg-warning">Flex Item-2</div>
+                        <div class="p-3 bg-primary">Flex Item-3</div>
+                        <div class="p-3 bg-danger">Flex Item-4</div>
+                        <div class="p-3 bg-warning">Flex Item-5</div>
+                        <div class="p-3 bg-primary">Flex Item-6</div>
+                        <div class="p-3 bg-danger">Flex Item-7</div>
+                        <div class="p-3 bg-warning">Flex Item-8</div>
+                        <div class="p-3 bg-primary">Flex Item-9</div>
+                        <div class="p-3 bg-danger">Flex Item-10</div>
+                        <div class="p-3 bg-warning">Flex Item-12</div>
+                        <div class="p-3 bg-primary">Flex Item-13</div>
+                        <div class="p-3 bg-danger">Flex Item-14</div>
+                        <div class="p-3 bg-warning">Flex Item-15</div>
+                        <div class="p-3 bg-primary">Flex Item-16</div>
+                        <div class="p-3 bg-danger">Flex Item-17</div>
+                        <div class="p-3 bg-warning">Flex Item-18</div>
+                        <div class="p-3 bg-primary">Flex Item-19</div>
+                        <div class="p-3 bg-danger">Flex Item-20</div>
+                        <div class="p-3 bg-warning">Flex Item-21</div>
+                        <div class="p-3 bg-primary">Flex Item-22</div>
+                        <div class="p-3 bg-danger">Flex Item-23</div>
+                        <div class="p-3 bg-warning">Flex Item-24</div>
+                        <div class="p-3 bg-primary">Flex Item-25</div>
+                    </div>
+                    <br>
+                
+                    <h5>Wrap - Flex-Wrap-Reverse</h5>
+                    <div class="d-flex flex-wrap-reverse p-3 bg-secondary text-light">
+                        <div class="p-3 bg-danger">Flex Item-1</div>
+                        <div class="p-3 bg-warning">Flex Item-2</div>
+                        <div class="p-3 bg-primary">Flex Item-3</div>
+                        <div class="p-3 bg-danger">Flex Item-4</div>
+                        <div class="p-3 bg-warning">Flex Item-5</div>
+                        <div class="p-3 bg-primary">Flex Item-6</div>
+                        <div class="p-3 bg-danger">Flex Item-7</div>
+                        <div class="p-3 bg-warning">Flex Item-8</div>
+                        <div class="p-3 bg-primary">Flex Item-9</div>
+                        <div class="p-3 bg-danger">Flex Item-10</div>
+                        <div class="p-3 bg-warning">Flex Item-12</div>
+                        <div class="p-3 bg-primary">Flex Item-13</div>
+                        <div class="p-3 bg-danger">Flex Item-14</div>
+                        <div class="p-3 bg-warning">Flex Item-15</div>
+                        <div class="p-3 bg-primary">Flex Item-16</div>
+                        <div class="p-3 bg-danger">Flex Item-17</div>
+                        <div class="p-3 bg-warning">Flex Item-18</div>
+                        <div class="p-3 bg-primary">Flex Item-19</div>
+                        <div class="p-3 bg-danger">Flex Item-20</div>
+                        <div class="p-3 bg-warning">Flex Item-21</div>
+                        <div class="p-3 bg-primary">Flex Item-22</div>
+                        <div class="p-3 bg-danger">Flex Item-23</div>
+                        <div class="p-3 bg-warning">Flex Item-24</div>
+                        <div class="p-3 bg-primary">Flex Item-25</div>
+                    </div>
+                    <br>
+               
+                    <h5>Wrap - Flex-Wrap-Reverse</h5>
+                    <div class="d-flex flex-nowrap p-3 bg-secondary text-light">
+                        <div class="p-3 bg-danger">Flex Item-1</div>
+                        <div class="p-3 bg-warning">Flex Item-2</div>
+                        <div class="p-3 bg-primary">Flex Item-3</div>
+                        <div class="p-3 bg-danger">Flex Item-4</div>
+                        <div class="p-3 bg-warning">Flex Item-5</div>
+                        <div class="p-3 bg-primary">Flex Item-6</div>
+                        <div class="p-3 bg-danger">Flex Item-7</div>
+                        <div class="p-3 bg-warning">Flex Item-8</div>
+                        <div class="p-3 bg-primary">Flex Item-9</div>
+                        <div class="p-3 bg-danger">Flex Item-10</div>
+                        <div class="p-3 bg-warning">Flex Item-12</div>
+                        <div class="p-3 bg-primary">Flex Item-13</div>
+                        <div class="p-3 bg-danger">Flex Item-14</div>
+                        <div class="p-3 bg-warning">Flex Item-15</div>
+                        <div class="p-3 bg-primary">Flex Item-16</div>
+                        <div class="p-3 bg-danger">Flex Item-17</div>
+                        <div class="p-3 bg-warning">Flex Item-18</div>
+                    </div>
+                </div>
+                <br>
+                
+                <div class="p-3">
+                    <h4>Align-Content</h4>
+                    <h5>Align-Content - Start</h5>
+                    <div class="d-flex flex-wrap align-content-start p-3 bg-secondary text-light" style="height: 300px;">
+                        <div class="p-3 bg-danger">Flex Item-1</div>
+                        <div class="p-3 bg-warning">Flex Item-2</div>
+                        <div class="p-3 bg-primary">Flex Item-3</div>
+                        <div class="p-3 bg-danger">Flex Item-4</div>
+                        <div class="p-3 bg-warning">Flex Item-5</div>
+                        <div class="p-3 bg-primary">Flex Item-6</div>
+                        <div class="p-3 bg-danger">Flex Item-7</div>
+                        <div class="p-3 bg-warning">Flex Item-8</div>
+                        <div class="p-3 bg-primary">Flex Item-9</div>
+                        <div class="p-3 bg-danger">Flex Item-10</div>
+                        <div class="p-3 bg-warning">Flex Item-12</div>
+                        <div class="p-3 bg-primary">Flex Item-13</div>
+                        <div class="p-3 bg-danger">Flex Item-14</div>
+                        <div class="p-3 bg-warning">Flex Item-15</div>
+                        <div class="p-3 bg-primary">Flex Item-16</div>
+                        <div class="p-3 bg-danger">Flex Item-17</div>
+                        <div class="p-3 bg-warning">Flex Item-18</div>
+                        <div class="p-3 bg-primary">Flex Item-19</div>
+                        <div class="p-3 bg-danger">Flex Item-20</div>
+                        <div class="p-3 bg-primary">Flex Item-21</div>
+                        <div class="p-3 bg-danger">Flex Item-22</div>
+                        <div class="p-3 bg-warning">Flex Item-23</div>
+                        <div class="p-3 bg-primary">Flex Item-24</div>
+                        <div class="p-3 bg-danger">Flex Item-25</div>
+                    </div>
+                    <br>
+                
+                    <h5>Align-Content - End</h5>
+                    <div class="d-flex flex-wrap align-content-end p-3 bg-secondary text-light" style="height: 300px;">
+                        <div class="p-3 bg-danger">Flex Item-1</div>
+                        <div class="p-3 bg-warning">Flex Item-2</div>
+                        <div class="p-3 bg-primary">Flex Item-3</div>
+                        <div class="p-3 bg-danger">Flex Item-4</div>
+                        <div class="p-3 bg-warning">Flex Item-5</div>
+                        <div class="p-3 bg-primary">Flex Item-6</div>
+                        <div class="p-3 bg-danger">Flex Item-7</div>
+                        <div class="p-3 bg-warning">Flex Item-8</div>
+                        <div class="p-3 bg-primary">Flex Item-9</div>
+                        <div class="p-3 bg-danger">Flex Item-10</div>
+                        <div class="p-3 bg-warning">Flex Item-12</div>
+                        <div class="p-3 bg-primary">Flex Item-13</div>
+                        <div class="p-3 bg-danger">Flex Item-14</div>
+                        <div class="p-3 bg-warning">Flex Item-15</div>
+                        <div class="p-3 bg-primary">Flex Item-16</div>
+                        <div class="p-3 bg-danger">Flex Item-17</div>
+                        <div class="p-3 bg-warning">Flex Item-18</div>
+                        <div class="p-3 bg-primary">Flex Item-19</div>
+                        <div class="p-3 bg-danger">Flex Item-20</div>
+                        <div class="p-3 bg-primary">Flex Item-21</div>
+                        <div class="p-3 bg-danger">Flex Item-22</div>
+                        <div class="p-3 bg-warning">Flex Item-23</div>
+                        <div class="p-3 bg-primary">Flex Item-24</div>
+                        <div class="p-3 bg-danger">Flex Item-25</div>
+                    </div>
+                    <br>
+               
+                    <h5>Align-Content - Space-Between</h5>
+                    <div class="d-flex flex-wrap align-content-between p-3 bg-secondary text-light" style="height: 300px;">
+                        <div class="p-3 bg-danger">Flex Item-1</div>
+                        <div class="p-3 bg-warning">Flex Item-2</div>
+                        <div class="p-3 bg-primary">Flex Item-3</div>
+                        <div class="p-3 bg-danger">Flex Item-4</div>
+                        <div class="p-3 bg-warning">Flex Item-5</div>
+                        <div class="p-3 bg-primary">Flex Item-6</div>
+                        <div class="p-3 bg-danger">Flex Item-7</div>
+                        <div class="p-3 bg-warning">Flex Item-8</div>
+                        <div class="p-3 bg-primary">Flex Item-9</div>
+                        <div class="p-3 bg-danger">Flex Item-10</div>
+                        <div class="p-3 bg-warning">Flex Item-12</div>
+                        <div class="p-3 bg-primary">Flex Item-13</div>
+                        <div class="p-3 bg-danger">Flex Item-14</div>
+                        <div class="p-3 bg-warning">Flex Item-15</div>
+                        <div class="p-3 bg-primary">Flex Item-16</div>
+                        <div class="p-3 bg-danger">Flex Item-17</div>
+                        <div class="p-3 bg-warning">Flex Item-18</div>
+                        <div class="p-3 bg-primary">Flex Item-19</div>
+                        <div class="p-3 bg-danger">Flex Item-20</div>
+                        <div class="p-3 bg-primary">Flex Item-21</div>
+                        <div class="p-3 bg-danger">Flex Item-22</div>
+                        <div class="p-3 bg-warning">Flex Item-23</div>
+                        <div class="p-3 bg-primary">Flex Item-24</div>
+                        <div class="p-3 bg-danger">Flex Item-25</div>
+                    </div>
+                    <br>
+               
+                    <h5>Align-Content - Space-Around</h5>
+                    <div class="d-flex flex-wrap align-content-around p-3 bg-secondary text-light" style="height: 300px;">
+                        <div class="p-3 bg-danger">Flex Item-1</div>
+                        <div class="p-3 bg-warning">Flex Item-2</div>
+                        <div class="p-3 bg-primary">Flex Item-3</div>
+                        <div class="p-3 bg-danger">Flex Item-4</div>
+                        <div class="p-3 bg-warning">Flex Item-5</div>
+                        <div class="p-3 bg-primary">Flex Item-6</div>
+                        <div class="p-3 bg-danger">Flex Item-7</div>
+                        <div class="p-3 bg-warning">Flex Item-8</div>
+                        <div class="p-3 bg-primary">Flex Item-9</div>
+                        <div class="p-3 bg-danger">Flex Item-10</div>
+                        <div class="p-3 bg-warning">Flex Item-12</div>
+                        <div class="p-3 bg-primary">Flex Item-13</div>
+                        <div class="p-3 bg-danger">Flex Item-14</div>
+                        <div class="p-3 bg-warning">Flex Item-15</div>
+                        <div class="p-3 bg-primary">Flex Item-16</div>
+                        <div class="p-3 bg-danger">Flex Item-17</div>
+                        <div class="p-3 bg-warning">Flex Item-18</div>
+                        <div class="p-3 bg-primary">Flex Item-19</div>
+                        <div class="p-3 bg-danger">Flex Item-20</div>
+                        <div class="p-3 bg-primary">Flex Item-21</div>
+                        <div class="p-3 bg-danger">Flex Item-22</div>
+                        <div class="p-3 bg-warning">Flex Item-23</div>
+                        <div class="p-3 bg-primary">Flex Item-24</div>
+                        <div class="p-3 bg-danger">Flex Item-25</div>
+                    </div>
+                    <br>
+               
+                    <h5>Align-Content - Space-Stretch</h5>
+                    <div class="d-flex flex-wrap align-content-stretch p-3 bg-secondary text-light" style="height: 300px;">
+                        <div class="p-3 bg-danger">Flex Item-1</div>
+                        <div class="p-3 bg-warning">Flex Item-2</div>
+                        <div class="p-3 bg-primary">Flex Item-3</div>
+                        <div class="p-3 bg-danger">Flex Item-4</div>
+                        <div class="p-3 bg-warning">Flex Item-5</div>
+                        <div class="p-3 bg-primary">Flex Item-6</div>
+                        <div class="p-3 bg-danger">Flex Item-7</div>
+                        <div class="p-3 bg-warning">Flex Item-8</div>
+                        <div class="p-3 bg-primary">Flex Item-9</div>
+                        <div class="p-3 bg-danger">Flex Item-10</div>
+                        <div class="p-3 bg-warning">Flex Item-12</div>
+                        <div class="p-3 bg-primary">Flex Item-13</div>
+                        <div class="p-3 bg-danger">Flex Item-14</div>
+                        <div class="p-3 bg-warning">Flex Item-15</div>
+                        <div class="p-3 bg-primary">Flex Item-16</div>
+                        <div class="p-3 bg-danger">Flex Item-17</div>
+                        <div class="p-3 bg-warning">Flex Item-18</div>
+                        <div class="p-3 bg-primary">Flex Item-19</div>
+                        <div class="p-3 bg-danger">Flex Item-20</div>
+                        <div class="p-3 bg-primary">Flex Item-21</div>
+                        <div class="p-3 bg-danger">Flex Item-22</div>
+                        <div class="p-3 bg-warning">Flex Item-23</div>
+                        <div class="p-3 bg-primary">Flex Item-24</div>
+                        <div class="p-3 bg-danger">Flex Item-25</div>
+                    </div>
+                </div>
+                <br>
+
+                <div class="p-3">
+                    <h4>Align-Items</h4>
+                    <h5>Align-item - Start</h5>
+                    <div class="d-flex align-items-start p-3 bg-secondary text-light" style="height: 200px;">
+                        <div class="p-3 bg-danger">Flex Item-1</div>
+                        <div class="p-3 bg-warning">Flex Item-2</div>
+                        <div class="p-3 bg-primary">Flex Item-3</div>
+                    </div>
+                    <br>
+                    
+                    <h5>Align-item - End</h5>
+                    <div class="d-flex align-items-end p-3 bg-secondary text-light" style="height: 200px;">
+                        <div class="p-3 bg-danger">Flex Item-1</div>
+                        <div class="p-3 bg-warning">Flex Item-2</div>
+                        <div class="p-3 bg-primary">Flex Item-3</div>
+                    </div>
+                    <br>
+                   
+                    <h5>Align-item - Center</h5>
+                    <div class="d-flex align-items-center p-3 bg-secondary text-light" style="height: 200px;">
+                        <div class="p-3 bg-danger">Flex Item-1</div>
+                        <div class="p-3 bg-warning">Flex Item-2</div>
+                        <div class="p-3 bg-primary">Flex Item-3</div>
+                    </div>
+                    <br>
+                   
+                    <h5>Align-item - Baseline</h5>
+                    <div class="d-flex align-items-baseline p-3 bg-secondary text-light" style="height: 200px;">
+                        <div class="p-1 bg-danger">Flex Item-1</div>
+                        <div class="p-3 bg-warning">Flex Item-2</div>
+                        <div class="p-5 bg-primary">Flex Item-3</div>
+                    </div>
+                    <br>
+
+                    <h5>Align-item - Stretch</h5>
+                    <div class="d-flex align-items-stretch p-3 bg-secondary text-light" style="height: 200px;">
+                        <div class="p-3 bg-danger">Flex Item-1</div>
+                        <div class="p-3 bg-warning">Flex Item-2</div>
+                        <div class="p-3 bg-primary">Flex Item-3</div>
+                    </div>
+                </div>
+                <br>
+               
+                <div class="p-3">
+                    <h4>Align-Self</h4>
+                    <h5>Align-Self - Start</h5>
+                    <div class="d-flex p-3 bg-secondary text-light" style="height: 200px;">
+                        <div class="p-3 bg-danger">Flex Item-1</div>
+                        <div class="p-3 bg-warning align-self-start">Flex Item-2</div>
+                        <div class="p-3 bg-primary">Flex Item-3</div>
+                    </div>
+                    <br>
+                    
+                    <h5>Align-Self - End</h5>
+                    <div class="d-flex p-3 bg-secondary text-light" style="height: 200px;">
+                        <div class="p-3 bg-danger">Flex Item-1</div>
+                        <div class="p-3 bg-warning align-self-end">Flex Item-2</div>
+                        <div class="p-3 bg-primary">Flex Item-3</div>
+                    </div>
+                    <br>
+                   
+                    <h5>Align-Self - Center</h5>
+                    <div class="d-flex p-3 bg-secondary text-light" style="height: 200px;">
+                        <div class="p-3 bg-danger">Flex Item-1</div>
+                        <div class="p-3 bg-warning align-self-center">Flex Item-2</div>
+                        <div class="p-3 bg-primary">Flex Item-3</div>
+                    </div>
+                    <br>
+                   
+                    <h5>Align-Self - Baseline</h5>
+                    <div class="d-flex p-3 bg-secondary text-light" style="height: 200px;">
+                        <div class="p-3 bg-danger">Flex Item-1</div>
+                        <div class="p-3 bg-warning align-self-baseline">Flex Item-2</div>
+                        <div class="p-3 bg-primary">Flex Item-3</div>
+                    </div>
+                    <br>
+
+                    <h5>Align-Self - Stretch</h5>
+                    <div class="d-flex p-3 bg-secondary text-light" style="height: 200px;">
+                        <div class="p-3 bg-danger">Flex Item-1</div>
+                        <div class="p-3 bg-warning align-self-stretch">Flex Item-2</div>
+                        <div class="p-3 bg-primary">Flex Item-3</div>
+                    </div>
+                </div>
+            </div>
+            <br><hr><br>
+            
+            <div class="p-3">
+                <h3>Bootstrap Forms</h3>
+
+                <div class="p-3">
+                    <h4>Stacked Form</h4>
+
+                    <form action="#" class="m-3">
+                        <div class="row mb-3">
+                            <div class="col">
+                                <label for="fname">First Name : </label>
+                                <input type="text" class="form-control" name="fname" id="fname" placeholder="Enter First Name...">
+                            </div>
+                            <div class="col">
+                                <label for="lname">Last Name : </label>
+                                <input type="text" class="form-control" name="lname" id="lname"  placeholder="Enter Last Name...">
+                            </div>
+                        </div>
+
+                        <div class="row mb-3">
+                            <div class="col">
+                                <label for="email">Email :</label>
+                                <input type="email" name="email" id="email" class="form-control" placeholder="Enter Email...">
+                            </div>
+                            <div class="col">
+                                <label for="pswd">Password :</label>
+                                <input type="password" name="pswd" id="pswd" class="form-control" placeholder="Enter Password...">
+                            </div>
+                        </div>  
+
+                        <div class="mb-3">
+                            <label for="comt">More About :</label>
+                            <textarea name="text" class="form-control" id="comt" cols="30" rows="5"></textarea>
+                        </div>
+
+                        <div class="row mb-3">
+                            <div class="col">
+                                <input type="text" name="desabled" id="desebled" class="form-control" placeholder="Disabled Imput..." disabled>
+                            </div>
+                            <div class="col">
+                                <input type="text" name="readonly" id="readonly" class="form-control" placeholder="Readonly Imput..." readonly>
+                            </div>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="cars">Select Your Car : </label>
+                            <select name="car" id="cars" class="form-select">
+                                <option value="">Ford Mustang</option>
+                                <option value="">BMW M5 Compitition</option>
+                                <option value="">Dodge Charger</option>
+                                <option value="">Toyota Supra</option>
+                            </select>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="checkboxes">Select Your Favorite Lenguage : </label>
+                            <div class="form-check">    
+                                <input type="checkbox" name="ck1" id="check1" class="form-check-input">
+                                <label for="check1">HTML</label> 
+                                <br>
+                                <input type="checkbox" name="ck2" id="check2" class="form-check-input">
+                                <label for="check2">CSS</label>
+                                <br>
+                                <input type="checkbox" name="ck3" id="check3" class="form-check-input" checked>
+                                <label for="check3">JavaScript</label>
+                            </div>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="">Select Your City :</label>
+                            <div class="form-check">
+                                <input type="radio" name="city" id="bvn" class="form-check-input">
+                                <label for="bvn">Bhavnagar</label> 
+                                <br>
+                                <input type="radio" name="city" id="srt" class="form-check-input" checked>
+                                <label for="srt">Surat</label> 
+                                <br>
+                                <input type="radio" name="city" id="amd" class="form-check-input" disabled> 
+                                <label for="amd">Ahmedabad</label>
+                            </div>
+                        </div>
+
+                        <div>
+                            <label for="custRange" class="form-label">Custom Range</label>
+                            <input type="range" name="points" class="form-range" id="custRange" step="10" min="0" max="100">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="color">
+                                Select Your Favorite Color :  
+                                <input type="color" name="color" id="color" class="form-control form-control-color" value="#ff0000"> 
+                            </label>
+                        </div>
+
+                        <div class="mb-3 form-check form-switch">
+                            <input class="form-check-input" type="checkbox" name="mode" id="mySwitch" value="yes" checked>
+                            <label class="form-check-label" for="mySwitch">Dark Mode</label>
+                        </div>
+
+                        <div class="form-check mb-3">
+                            <label for="chk" class="form-check-label">
+                                <input type="checkbox" name="chk" id="chk" class="form-check-input"> Remember me
+                            </label>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+
+                <div class="p-3">
+                    <h4>Input Groups Form</h4>
+
+                    <form action="#" class="m-3">
+                        <div class="mb-3 input-group">
+                            <span class="input-group-text bg-secondary text-light">@</span>
+                            <input type="text" class="form-control" id="uName" placeholder="Username">
+                        </div>
+
+                        <div class="mb-3 input-group">
+                            <input type="text" class="form-control" id="eml" placeholder="Your Email">
+                            <span class="input-group-text bg-secondary text-light">abc@email.com</span>
+                        </div>
+
+                        <div class="mb-3 input-group">
+                            <span class="input-group-text bg-secondary text-light">Name</span>
+                            <input type="text" name="fname" id="fname" class="form-control" placeholder="First Name...">
+                            <input type="text" name="fname" id="fname" class="form-control" placeholder="Last Name...">
+                        </div>
+
+                        <div class="mb-3 input-group">
+                            <span class="input-group-text bg-secondary text-light">One</span>
+                            <span class="input-group-text bg-secondary text-light">Two</span>
+                            <span class="input-group-text bg-secondary text-light">Three</span>
+                            <input type="text" name="inp" id="inp" class="form-control">
+                        </div>
+
+                        <div class="mb-3 input-group">
+                            <div class="input-group-text">
+                                <input type="checkbox">
+                            </div>
+                            <input type="text" class="form-control" placeholder="Some Text...">
+                        </div>
+                       
+                        <div class="mb-3 input-group">
+                            <div class="input-group-text">
+                                <input type="radio" checked>
+                            </div>
+                            <input type="text" class="form-control" placeholder="Some Text...">
+                        </div>
+
+                        <div class="mb-3 input-group">
+                            <button class="btn btn-outline-primary" type="button">Basic Button</button>
+                            <input type="text" class="form-control" placeholder="Some Text...">
+                        </div>
+                        
+                        <div class="mb-3 input-group">
+                            <input type="text" class="form-control" placeholder="Search Something...">
+                            <button class="btn btn-success" type="submit">Go</button>
+                        </div>
+                        
+                        <div class="mb-3 input-group">
+                            <input type="text" class="form-control" placeholder="Search Something...">
+                            <button class="btn btn-primary" type="submit">OK</button>
+                            <button class="btn btn-danger" type="submit">Cancel</button>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="p-3">
+                    <h4>Floatng Labels/Animated Labels Form </h4>
+
+                    <form action="#" class="m-3">
+                        <div class="form-floating mb-3">
+                            <input type="email" name="email" class="form-control" id="email" placeholder="Emter Email...">
+                            <label for="email">Email</label>
+                        </div>
+                      
+                        <div class="form-floating mb-3">
+                            <input type="password" name="email" class="form-control" id="pswd" placeholder="Emter Password...">
+                            <label for="pswd">Password</label>
+                        </div>
+
+                        <div class="form-floating mb-3">
+                            <textarea name="text" id="comt" class="form-control" placeholder="Enter Your Commnets Here..."></textarea>
+                            <label for="comt">Commnets</label>
+                        </div>
+
+                        <div class="form-floating mb-3">
+                            <select name="slct" id="car1" class="form-control">
+                                <option value="car">Ford Mustang</option>
+                                <option value="car">BMW M5-Compitition</option>
+                                <option value="car">Dodge Charger</option>
+                                <option value="car">Toyota Supra</option>
+                                <option value="car">Audi E-tron</option>
+                            </select>
+                            <label for="car1" class="form-label">Select Your Favorite Car</label>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="p-3">
+                    <h4>Form Validation</h4>
+
+                    <form action="#" class="m-3 was-validated">
+                        <div class="mb-3">
+                            <label for="usnm" class="form-label">Username :</label>
+                            <input type="email" class="form-control" name="uname" id="usnm" placeholder="Enter Username..." required>
+                            <div class="valid-feedback">Username is correct !</div>
+                            <div class="invalid-feedback">Please enter valid username !</div>
+                        </div>
+                        
+                        <div class="mb-3">
+                            <label for="pwd" class="form-label">Password :</label>
+                            <input type="password" class="form-control" name="pswd" id="pwd" placeholder="Enter Password..." required>
+                            <div class="valid-feedback">Password is correct !</div>
+                            <div class="invalid-feedback">Please enter valid username !</div>
+                        </div>
+                        
+                        <div class="form-check mb-3">
+                            <input type="checkbox" class="form-check-input" name="myCheck" id="myCheck" required>
+                            <label for="myCheck" class="form-check-label">I Agree Terms And Conditions</label>
+                            <div class="valid-feedback">Terms and conditions accepted !</div>
+                            <div class="invalid-feedback">Please agree terms and conditions!</div>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+            </div>
+            <hr>
+
+            <div class="p-3">
+                <h3>Bootstrap Grid</h3>
+
+                <div class="p-3">
+                    <h4>Basic Structure of Grid</h4>
+
+                    <div class="row m-3 text-white">
+                        <div class="col-sm-6 p-3 bg-primary">col - 50%</div>
+                        <div class="col-sm-6 p-3 bg-dark">col - 50%</div>
+                    </div>
+                  
+                    <div class="row m-3 text-white">
+                        <div class="col-sm-4 p-3 bg-primary">col - 33.33%</div>
+                        <div class="col-sm-4 p-3 bg-dark">col - 33.33%</div>
+                        <div class="col-sm-4 p-3 bg-primary">col - 33.33%</div>
+                    </div>
+                  
+                    <div class="row m-3 text-white">
+                        <div class="col-sm-3 p-3 bg-primary">col - 25%</div>
+                        <div class="col-sm-3 p-3 bg-dark">col - 25%</div>
+                        <div class="col-sm-3 p-3 bg-primary">col - 25%</div>
+                        <div class="col-sm-3 p-3 bg-dark">col - 25%</div>
+                    </div>
+                  
+                    <div class="row m-3 text-white">
+                        <div class="col p-3 bg-primary">col - 25%</div>
+                        <div class="col p-3 bg-dark">col - 25%</div>
+                        <div class="col p-3 bg-primary">col - 25%</div>
+                        <div class="col p-3 bg-dark">col - 25%</div>
+                    </div>
+                </div>
+                
+                <div class="p-3">
+                    <h4>Stached/Horizontal Grid</h4>
+
+                    <div class="m-3">
+                        <h5>Auto Layout Columns At Extra Small Screen</h5>
+                        <div class="row m-3">
+                            <div class="col p-3 bg-warning">1 of 2</div>
+                            <div class="col p-3 bg-danger">2 of 2</div>
+                        </div>
+                    </div>
+
+                    <div class="m-3"> 
+                        <h5>Auto Layout Columns At Small Screen</h5>
+                        <div class="row m-3">
+                            <div class="col-sm p-3 bg-warning">1 of 2</div>
+                            <div class="col-sm p-3 bg-danger">2 of 2</div>
+                        </div>
+                    </div>
+                    
+                    <div class="m-3">
+                        <h5>Auto Layout Columns At Medium Screen</h5>
+                        <div class="row m-3">
+                            <div class="col-md p-3 bg-warning">1 of 2</div>
+                            <div class="col-md p-3 bg-danger">2 of 2</div>
+                        </div>
+                    </div>
+                    
+                    <div class="m-3">
+                        <h5>Auto Layout Columns At Large Screen</h5>
+                        <div class="row m-3">
+                            <div class="col-lg p-3 bg-warning">1 of 2</div>
+                            <div class="col-lg p-3 bg-danger">2 of 2</div>
+                        </div>
+                    </div>
+                    
+                    <div class="m-3">
+                        <h5>Auto Layout Columns At Extra Large Screen</h5>
+                        <div class="row m-3">
+                            <div class="col-xl p-3 bg-warning">1 of 2</div>
+                            <div class="col-xl p-3 bg-danger">2 of 2</div>
+                        </div>
+                    </div>
+                    
+                    <div class="m-3">
+                        <h5>Auto Layout Columns At Extra Extra Large Screen</h5>
+                        <div class="row m-3">
+                            <div class="col-xxl p-3 bg-warning">1 of 2</div>
+                            <div class="col-xxl p-3 bg-danger">2 of 2</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="p-3">
+                    <h4>Extra Small Grid</h4>
+                    <div class="row m-3 text-white">
+                        <div class="col-4 p-3 bg-success">1 of 2</div>
+                        <div class="col-8 p-3 bg-primary">2 of 2</div>
+                    </div>
+                  
+                    <div class="row m-3 text-white">
+                        <div class="col-8 p-3 bg-primary">1 of 2</div>
+                        <div class="col-4 p-3 bg-success">2 of 2</div>
+                    </div>
+                </div>
+              
+                <div class="p-3">
+                    <h4>Small Grid</h4>
+                    <div class="row m-3 text-white">
+                        <div class="col-6 col-sm-8 p-3 bg-success">1 of 2</div>
+                        <div class="col-6 col-sm-4 p-3 bg-primary">2 of 2</div>
+                    </div>
+                  
+                    <div class="row m-3 text-white">
+                        <div class="col-6 col-sm-4 p-3 bg-primary">1 of 2</div>
+                        <div class="col-6 col-sm-8 p-3 bg-success">2 of 2</div>
+                    </div>
+                </div>
+                
+                <div class="p-3">
+                    <h4>Medium Grid</h4>
+                    <div class="row m-3 text-white">
+                        <div class="col-sm-8 col-md-4 p-3 bg-success">1 of 2</div>
+                        <div class="col-sm-4 col-md-8 p-3 bg-primary">2 of 2</div>
+                    </div>
+                  
+                    <div class="row m-3 text-white">
+                        <div class="col-sm-4 col-md-8 p-3 bg-primary">1 of 2</div>
+                        <div class="col-sm-8 col-md-4 p-3 bg-success">2 of 2</div>
+                    </div>
+                </div>
+                
+                <div class="p-3">
+                    <h4>Large Grid</h4>
+                    <div class="row m-3 text-white">
+                        <div class="col-sm-8 col-md-6 col-lg-3 p-3 bg-success">1 of 2</div>
+                        <div class="col-sm-4 col-md-6 col-lg-9 p-3 bg-primary">2 of 2</div>
+                    </div>
+                  
+                    <div class="row m-3 text-white">
+                        <div class="col-sm-4 col-md-6 col-lg-9 p-3 bg-primary">1 of 2</div>
+                        <div class="col-sm-8 col-md-6 col-lg-3 p-3 bg-success">2 of 2</div>
+                    </div>
+                </div>
+                
+                <div class="p-3">
+                    <h4>Extra Large Grid</h4>
+                    <div class="row m-3 text-white">
+                        <div class="col-sm-8 col-md-6 col-lg-4 col-xl-2 p-3 bg-success">1 of 2</div>
+                        <div class="col-sm-4 col-md-6 col-lg-8 col-xl-10 p-3 bg-primary">2 of 2</div>
+                    </div>
+                  
+                    <div class="row m-3 text-white">
+                        <div class="col-sm-4 col-md-6 col-lg-8 col-xl-10 p-3 bg-primary">1 of 2</div>
+                        <div class="col-sm-8 col-md-6 col-lg-4 col-xl-2 p-3 bg-success">2 of 2</div>
+                    </div>
+                </div>
+                
+                <div class="p-3">
+                    <h4>Extra Extra Large Grid</h4>
+                    <div class="row m-3 text-white">
+                        <div class="col-sm-9 col-md-8 col-lg-6 col-xl-4 col-xxl-3 p-3 bg-success">1 of 2</div>
+                        <div class="col-sm-3 col-md-4 col-lg-6 col-xl-8 col-xxl-9 p-3 bg-primary">2 of 2</div>
+                    </div>
+                  
+                    <div class="row m-3 text-white">
+                        <div class="col-sm-3 col-md-4 col-lg-6 col-xl-8 col-xxl-9 p-3 bg-primary">1 of 2</div>
+                        <div class="col-sm-9 col-md-8 col-lg-6 col-xl-4 col-xxl-3 p-3 bg-success">2 of 2</div>
+                    </div>
+                </div>
+
+                <div class="p-3">
+                    <h4>Row Cols</h4>
+                    <div class="row row-cols-1 m-3 text-white">
+                        <div class="col p-3 bg-danger">1 of 2</div>
+                        <div class="col p-3 bg-warning">2 of 2</div>
+                    </div>
+                  
+                    <div class="row row-cols-2 m-3 text-white">
+                        <div class="col p-3 bg-danger">1 of 4</div>
+                        <div class="col p-3 bg-warning">2 of 4</div>
+                        <div class="col p-3 bg-primary">3 of 4</div>
+                        <div class="col p-3 bg-success">4 of 4</div>
+                    </div>
+                  
+                    <div class="row row-cols-3 m-3 text-white">
+                        <div class="col p-3 bg-danger">1 of 6</div>
+                        <div class="col p-3 bg-primary">2 of 6</div>
+                        <div class="col p-3 bg-danger">3 of 6</div>
+                        <div class="col p-3 bg-primary">4 of 6</div>
+                        <div class="col p-3 bg-danger">5 of 6</div>
+                        <div class="col p-3 bg-primary">6 of 6</div>
+                    </div>
+                    
+                    <div class="row row-cols-5 m-3 text-white">
+                        <div class="col p-3 bg-primary">1 of 10</div>
+                        <div class="col p-3 bg-danger">2 of 10</div>
+                        <div class="col p-3 bg-warning">3 of 10</div>
+                        <div class="col p-3 bg-primary">4 of 10</div>
+                        <div class="col p-3 bg-danger">5 of 10</div>
+                        <div class="col p-3 bg-warning">6 of 10</div>
+                        <div class="col p-3 bg-primary">7 of 10</div>
+                        <div class="col p-3 bg-danger">8 of 10</div>
+                        <div class="col p-3 bg-warning">9 of 10</div>
+                        <div class="col p-3 bg-primary">10 of 10</div>
+                    </div>
+                </div>
+
+                <div class="p-3">
+                    <h4>Equals columns</h4>
+
+                    <div class="m-3">
+                        <div class="row">
+                            <div class="col p-3 bg-success">1 of 2</div>
+                            <div class="col p-3 bg-warning">2 of 2</div>
+                        </div>
+                        <div class="row">
+                            <div class="col p-3 bg-success">1 of 4</div>
+                            <div class="col p-3 bg-warning">2 of 4</div>
+                            <div class="col p-3 bg-success">3 of 4</div>
+                            <div class="col p-3 bg-warning">4 of 4</div>
+                        </div>
+                        <div class="row">
+                            <div class="col p-3 bg-success">1 of 6</div>
+                            <div class="col p-3 bg-warning">2 of 6</div>
+                            <div class="col p-3 bg-success">3 of 6</div>
+                            <div class="col p-3 bg-warning">4 of 6</div>
+                            <div class="col p-3 bg-success">5 of 6</div>
+                            <div class="col p-3 bg-warning">6 of 6</div>
+                        </div>
+                        <div class="row">
+                            <div class="col p-3 bg-success">1 of 8</div>
+                            <div class="col p-3 bg-warning">2 of 8</div>
+                            <div class="col p-3 bg-success">3 of 8</div>
+                            <div class="col p-3 bg-warning">4 of 8</div>
+                            <div class="col p-3 bg-success">5 of 8</div>
+                            <div class="col p-3 bg-warning">6 of 8</div>
+                            <div class="col p-3 bg-success">7 of 8</div>
+                            <div class="col p-3 bg-warning">8 of 8</div>
+                        </div>
+                        <div class="row">
+                            <div class="col p-3 bg-success">1 of 10</div>
+                            <div class="col p-3 bg-warning">2 of 10</div>
+                            <div class="col p-3 bg-success">3 of 10</div>
+                            <div class="col p-3 bg-warning">4 of 10</div>
+                            <div class="col p-3 bg-success">5 of 10</div>
+                            <div class="col p-3 bg-warning">6 of 10</div>
+                            <div class="col p-3 bg-success">7 of 10</div>
+                            <div class="col p-3 bg-warning">8 of 10</div>
+                            <div class="col p-3 bg-success">9 of 10</div>
+                            <div class="col p-3 bg-warning">10 of 10</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br><hr><hr>
+
+            <h1>Bootstrap-5 Basic Concepts Completed</h1>
+            <hr><hr>
+            <br><br>
+            
+        </div>
+    </section>
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" ></script> -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
